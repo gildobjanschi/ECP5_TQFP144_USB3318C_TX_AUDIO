@@ -1,0 +1,176 @@
+(footprint "Dialight_551-0307F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eaea175b-59bc-47ea-b48c-236b5dadffa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Dialight_551-0307F"
+		(at 0 -9.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "84cee35c-3ab6-4ca2-a3b3-498f5b2192fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 4.8 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9e5989b-6a0a-47e5-ae61-0f47c70174d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 4.8 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "085de9ad-5c29-4884-8694-69192d4f6f3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 4.8 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f1205e4-a783-4301-b1e4-2e8dc2a8e719")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -2.3)
+		(end 0.2 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09766ec6-cbb1-4232-9f80-16a9618a7791")
+	)
+	(fp_line
+		(start 0 2.3)
+		(end 0 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c900933-e9c0-4811-b22b-27ac63f6fba4")
+	)
+	(fp_line
+		(start 0.2 -2.3)
+		(end 6.4 -2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3de30bf-25ae-4922-a61a-acb0d49c69b2")
+	)
+	(fp_line
+		(start 6.4 -2.3)
+		(end 6.4 2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb3e2754-f5b5-4c25-a855-29f3de76d663")
+	)
+	(fp_line
+		(start 6.4 2.3)
+		(end 0 2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d25ad49a-174c-4335-8eb0-913b828a16f1")
+	)
+	(fp_arc
+		(start 0 1.5)
+		(mid -1.5 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "35d98ba3-eb9d-4f43-a00e-fca1c69fe4b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c46bd3a-23d5-4cdd-a730-01b2bf3641a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 4.44 1.27)
+		(size 1.6 1.6)
+		(drill 1)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(zone_connect 2)
+		(uuid "6d52358a-26f4-4bb7-a016-2a4bd9d40876")
+	)
+	(pad "2" thru_hole roundrect
+		(at 4.44 -1.27)
+		(size 1.6 1.6)
+		(drill 1)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(zone_connect 2)
+		(uuid "55612caa-113b-49e7-b83a-4e3f285f4746")
+	)
+	(model "${ECP5_STM32_TX_AUDIO_MODULE}/3dmodels/551XX07.stp"
+		(offset
+			(xyz 0 2.22 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -90)
+		)
+	)
+)
