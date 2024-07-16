@@ -20939,7 +20939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LFE5U-12F-6TG144C"
+		(property "Value" "LFE5U-25F-7TG144C"
 			(at 181.356 51.562 0)
 			(effects
 				(font
@@ -20966,7 +20966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC FPGA ECP5 12K LUT 144TQFP"
+		(property "Description" "IC FPGA ECP5 24K LUT 144TQFP"
 			(at 162.56 209.55 0)
 			(effects
 				(font
@@ -20975,7 +20975,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LFE5U-12F-6TG144C"
+		(property "MPN" "LFE5U-25F-7TG144C"
 			(at 162.56 161.29 0)
 			(effects
 				(font
