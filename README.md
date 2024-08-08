@@ -1,5 +1,5 @@
 # ECP5_Tx_Audio
- ECP5 HS USB Audio Device
+This is a Lattice Semiconductor ECP5 High Speed USB Audio Device.
 
 How to use the project library
 
