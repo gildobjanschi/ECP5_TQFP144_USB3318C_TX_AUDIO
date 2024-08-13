@@ -6471,9 +6471,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 2.54)
-					(name "EP"
+					(at 0 -7.62 90)
+					(length 2.54) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7561,12 +7561,6 @@
 		(uuid "bd18b378-f110-4ebd-b7bb-36e3b758fd05")
 	)
 	(junction
-		(at 81.28 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd6dbd74-7ff0-410e-8475-f22d09468b29")
-	)
-	(junction
 		(at 156.21 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8202,16 +8196,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 72.39) (xy 80.01 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148519a4-b9f6-4e31-b305-cf3e7da6c18e")
-	)
-	(wire
-		(pts
 			(xy 392.43 196.85) (xy 396.24 196.85)
 		)
 		(stroke
@@ -8569,16 +8553,6 @@
 			(type default)
 		)
 		(uuid "2f7af265-4570-4b88-9159-0485d874a665")
-	)
-	(wire
-		(pts
-			(xy 81.28 73.66) (xy 81.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe27773-7329-47d5-ad68-9dbe001d6b9c")
 	)
 	(wire
 		(pts
@@ -9612,16 +9586,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 72.39) (xy 80.01 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e00d22-02ef-448f-8d09-3dd5001c1cee")
-	)
-	(wire
-		(pts
 			(xy 308.61 59.69) (xy 307.34 59.69)
 		)
 		(stroke
@@ -10429,16 +10393,6 @@
 			(type default)
 		)
 		(uuid "d21215f8-cda2-4aaa-8d67-41ff1a2d6b80")
-	)
-	(wire
-		(pts
-			(xy 81.28 72.39) (xy 82.55 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e62f62-8fcc-4041-9b9c-b4ee52c62cd1")
 	)
 	(wire
 		(pts
@@ -24982,7 +24936,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 73.66 0)
+		(at 82.55 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24990,7 +24944,7 @@
 		(dnp no)
 		(uuid "c3d2d13a-67f5-4519-86f1-b3b961625c42")
 		(property "Reference" "#PWR061"
-			(at 81.28 80.01 0)
+			(at 82.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24999,7 +24953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 77.47 0)
+			(at 82.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25007,7 +24961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 73.66 0)
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25016,7 +24970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 73.66 0)
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25025,7 +24979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 73.66 0)
+			(at 82.55 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28112,7 +28066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC FLASH 128MBIT SPI/QUAD 8WSON"
+		(property "Description" "SPI Serial EEPROM, DFN8"
 			(at 82.55 63.5 0)
 			(effects
 				(font
