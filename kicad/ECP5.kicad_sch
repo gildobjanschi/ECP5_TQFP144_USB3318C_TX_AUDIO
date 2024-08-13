@@ -11036,15 +11036,16 @@
 		)
 		(uuid "7aee95ac-0b07-423e-b7e9-de32d67cc809")
 	)
-	(text "ECP5 Ultra Plus Audio Tx"
+	(text "ECP5 Ultra Plus Audio TX"
 		(exclude_from_sim no)
-		(at 327.914 258.826 0)
+		(at 303.276 258.826 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "7fc8b862-6402-4daa-8cf1-170d09fbe81b")
 	)
@@ -11089,7 +11090,7 @@
 		)
 		(uuid "b8e219f4-fd87-4ba5-9ced-b5a81e7075d9")
 	)
-	(text "A"
+	(text "B"
 		(exclude_from_sim no)
 		(at 392.684 280.416 0)
 		(effects
