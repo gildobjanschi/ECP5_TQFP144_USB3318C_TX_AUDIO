@@ -292,7 +292,7 @@
 		(zone_connect 2)
 		(uuid "1ed26012-611d-4c10-b9c3-2d8f08ce6de0")
 	)
-	(model "${ECP5_STM32_TX_AUDIO_MODULE}/3dmodels/W-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm.step"
+	(model "${ECP5_AUDIO}/3dmodels/W-PDFN-8-1EP_6x5mm_P1.27mm_EP3x3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

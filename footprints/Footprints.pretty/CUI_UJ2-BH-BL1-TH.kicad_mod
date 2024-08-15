@@ -392,7 +392,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "a20a79a4-1840-455b-a3f0-a90f1200fc2c")
 	)
-	(model "${ECP5_STM32_TX_AUDIO_MODULE}/3dmodels/CUI_DEVICES_UJ2-BH-BL1-TH.step"
+	(model "${ECP5_AUDIO}/3dmodels/CUI_DEVICES_UJ2-BH-BL1-TH.step"
 		(offset
 			(xyz -1.27 -14.5 0.5)
 		)

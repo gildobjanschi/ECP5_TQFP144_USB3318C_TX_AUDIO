@@ -553,7 +553,7 @@
 		(remove_unused_layers no)
 		(uuid "d32aa4ed-0fe9-4e20-b673-e3c0797e0790")
 	)
-	(model "${ECP5_STM32_TX_AUDIO_MODULE}/3dmodels/QFN24_4X4MC_MCH.step"
+	(model "${ECP5_AUDIO}/3dmodels/QFN24_4X4MC_MCH.step"
 		(offset
 			(xyz 0 0 0)
 		)

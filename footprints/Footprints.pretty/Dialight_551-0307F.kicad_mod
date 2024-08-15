@@ -162,7 +162,7 @@
 		(zone_connect 2)
 		(uuid "55612caa-113b-49e7-b83a-4e3f285f4746")
 	)
-	(model "${ECP5_STM32_TX_AUDIO_MODULE}/3dmodels/551XX07.stp"
+	(model "${ECP5_AUDIO}/3dmodels/551XX07.stp"
 		(offset
 			(xyz 0 2.22 0)
 		)

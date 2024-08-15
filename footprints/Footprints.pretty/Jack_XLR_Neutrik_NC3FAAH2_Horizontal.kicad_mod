@@ -434,7 +434,7 @@
 		(remove_unused_layers no)
 		(uuid "a84628b7-6cdc-48b4-a189-070b9849f041")
 	)
-	(model "${ECP5_STM32_TX_AUDIO_MODULE}/3dmodels/NC3FAAH2.STEP"
+	(model "${ECP5_AUDIO}/3dmodels/NC3FAAH2.STEP"
 		(offset
 			(xyz 12.7 0.1 0)
 		)

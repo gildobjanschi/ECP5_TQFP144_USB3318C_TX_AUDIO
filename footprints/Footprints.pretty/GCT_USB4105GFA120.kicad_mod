@@ -364,7 +364,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "adf78418-873b-4ef2-a44e-5a4d5768b6d3")
 	)
-	(model "${GIL_LIBRARIES}/3dmodels/USB4105GFA120.step"
+	(model "${ECP5_AUDIO}/3dmodels/USB4105GFA120.step"
 		(offset
 			(xyz 0 0 0)
 		)
