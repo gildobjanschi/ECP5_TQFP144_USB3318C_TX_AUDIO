@@ -9,7 +9,7 @@ Checkout the project and open it. In the Configure Paths dialog add: Name: ECP5_
 
 In the Manage Symbol Libraries click the Project Specific Libraries and add: Name: ECP5_AUDIO and Library Path: ${ECP5_AUDIO}/symbols/Symbols.kicad_sym
 
-In the Manage Footprint Libraries click the Project Specific Libraries and add: Name: ECP5_AUDIO and Library Path: ${ECP5_AUDIO}/footprints/Footprints.kicad_sym
+In the Manage Footprint Libraries click the Project Specific Libraries and add: Name: ECP5_AUDIO and Library Path: ${ECP5_AUDIO}/footprints/Footprints.pretty
 
 ## Project Status
 The board is coming back from manufacturing soon. 
