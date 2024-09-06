@@ -12,7 +12,7 @@ In the Manage Symbol Libraries click the Project Specific Libraries and add: Nam
 In the Manage Footprint Libraries click the Project Specific Libraries and add: Name: ECP5_AUDIO and Library Path: ${ECP5_AUDIO}/footprints/Footprints.pretty
 
 ## Project Status
-The board is coming back from manufacturing soon. 
+The board was manufactured and it is fully functional.
 
 [Schematic PDF](https://github.com/gildobjanschi/ECP5_TQFP144_USB3318C_TX_AUDIO/blob/main/kicad/ECP5%20Audio%20Tx.pdf)
 
